@@ -1,6 +1,6 @@
 package org.example.entities;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.util.Date;
 @Entity
 @Table(name = "employee_details")
