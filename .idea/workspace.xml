@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db22042a-1b84-455e-84d5-161315f5f14f" name="Changes" comment="">
+    <list default="true" id="db22042a-1b84-455e-84d5-161315f5f14f" name="Changes" comment="changes for fixing the hibernate config file issue">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/EmployeeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/EmployeeEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,11 +64,11 @@
       <recent name="G:\MyData@2024\hibernate-app\src\main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\spring-hibernate\src\main\resources" />
       <recent name="G:\spring-hibernate\src\main\java\org\example" />
       <recent name="G:\spring-hibernate\src\main\java" />
       <recent name="G:\spring-hibernate\src\main" />
       <recent name="G:\MyData@2024\hibernate-app\src\main" />
-      <recent name="G:\MyData@2024\hibernate-app\src\main\java\org\example" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.example" />
@@ -124,6 +125,15 @@
       <option name="presentableId" value="Default" />
       <updated>1712732874121</updated>
     </task>
+    <task id="LOCAL-00001" summary="changes for fixing the hibernate config file issue">
+      <option name="closed" value="true" />
+      <created>1716114367082</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716114367082</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -139,5 +149,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="changes for fixing the hibernate config file issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes for fixing the hibernate config file issue" />
   </component>
 </project>
