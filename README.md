@@ -49,6 +49,18 @@ a separate table for the embeddable class.
 here note is other class properties added into single table which is entity class have the reference variable  of class that annotate with @Embeddable.
 
 
+###### state of hibernate object
+Transient -> persistence -> detach -> removed
+
+create object and  when we set the properties  then this object goes into transient state.
+when we call session.save()(any method that related to the database operation ) when associate 
+with session then it will go into persistence state and convert into table.
+when the session is close then object will remove from session, and it will go into detach state and then removed state.
+
+
+
+
+
 
 
 
