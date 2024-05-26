@@ -1,6 +1,8 @@
 package org.example.entities;
 
 import jakarta.persistence.*;
+import lombok.ToString;
+
 import java.util.Date;
 @Entity
 @Table(name = "employee_details")
@@ -93,4 +95,16 @@ public class EmployeeEntity {
         this.salary = salary;
     }
 
+    @Override
+    public String toString() {
+        return "EmployeeEntity{" +
+                "empId=" + empId +
+                ", eName='" + eName + '\'' +
+                ", jobDetails='" + jobDetails + '\'' +
+                ", mangerId=" + mangerId +
+                ", joinDate=" + joinDate +
+                ", departmentId=" + departmentId +
+                ", salary=" + salary +
+                '}';
+    }
 }
