@@ -57,6 +57,12 @@ when we call session.save()(any method that related to the database operation ) 
 with session then it will go into persistence state and convert into table.
 when the session is close then object will remove from session, and it will go into detach state and then removed state.
 
+#### caching in hibernate 
+
+caching is a mechanism to enhance the performance of a application.
+
+cache use to reduce the number of call for database queries. 
+
 
 
 
