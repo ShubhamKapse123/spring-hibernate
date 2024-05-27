@@ -76,6 +76,7 @@ second level : which is related to session factor object.(this one object for al
 
 use ehcache maven dependency 
 and hibernate ehcache
+add this two
 
 
 
