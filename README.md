@@ -61,7 +61,28 @@ when the session is close then object will remove from session, and it will go i
 
 caching is a mechanism to enhance the performance of a application.
 
-cache use to reduce the number of call for database queries. 
+cache use to reduce the number of call for database queries.
+
+cache memory between application and database 
+hibernate have two level cache.
+
+first level :  which is related to session object.by default provide. 
+
+check object present in cache use
+session.contains(obj);
+return true if present 
+
+second level : which is related to session factor object.(this one object for all application). we need to manually enable.
+
+use ehcache maven dependency 
+and hibernate ehcache
+
+
+
+
+
+
+
 
 
 
