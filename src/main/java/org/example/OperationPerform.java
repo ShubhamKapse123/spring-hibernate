@@ -17,10 +17,9 @@ public class OperationPerform {
         return employeeEntityLode;
     }
 
-    public EmployeeEntity saveEmp(EmployeeEntity emp,Session session) {
+    public void saveEmp(EmployeeEntity emp,Session session) {
         Transaction transaction = session.beginTransaction();
-        EmployeeEntity employeeEntity= (EmployeeEntity) session.save(emp);
+         session.persist(emp);
         transaction.commit();
-        return employeeEntity;
     }
 }

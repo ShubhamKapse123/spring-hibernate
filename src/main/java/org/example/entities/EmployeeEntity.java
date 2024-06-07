@@ -29,8 +29,8 @@ public class EmployeeEntity {
         super();
     }
 
-    public EmployeeEntity(String empId, String eName, String jobDetails, int mangerId, Date joinDate, int departmentId, double salary) {
-        empId = empId;
+    public EmployeeEntity(Long empId, String eName, String jobDetails, int mangerId, Date joinDate, int departmentId, double salary) {
+        this.empId = empId;
         this.eName = eName;
         this.jobDetails = jobDetails;
         this.mangerId = mangerId;

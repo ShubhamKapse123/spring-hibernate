@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db22042a-1b84-455e-84d5-161315f5f14f" name="Changes" comment="add lazy loading and eager loading details">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/criteriaexample/CriteriaExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/navtivequary/NativeQuaryExamaple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pegination/Pegination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OperationPerform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OperationPerform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/EmployeeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/EmployeeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +66,19 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.App.executor": "Run",
+    "Application.CriteriaExample.executor": "Run",
+    "Application.NativeQuaryExamaple.executor": "Run",
+    "Application.Pegination.executor": "Run",
+    "Maven.hibernate-app [clean].executor": "Run",
+    "Maven.hibernate-app [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "G:/2024/spring-hibernate"
+    "last_opened_file_path": "G:/2024/spring-hibernate",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -82,13 +96,52 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.Pegination">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="hibernate-app" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CriteriaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.criteriaexample.CriteriaExample" />
+      <module name="hibernate-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.criteriaexample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NativeQuaryExamaple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.navtivequary.NativeQuaryExamaple" />
+      <module name="hibernate-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.navtivequary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pegination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.pegination.Pegination" />
+      <module name="hibernate-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.pegination.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,7 +172,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pegination" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.NativeQuaryExamaple" />
+        <item itemvalue="Application.CriteriaExample" />
         <item itemvalue="JUnit.All in hibernate-app" />
       </list>
     </recent_temporary>
@@ -157,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716724701661</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add lazy loading and eager loading details">
+      <option name="closed" value="true" />
+      <created>1716726048522</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716726048522</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

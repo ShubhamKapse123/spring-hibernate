@@ -1,0 +1,35 @@
+package org.example.pegination;
+
+import org.example.entities.EmployeeEntity;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.query.NativeQuery;
+import org.hibernate.query.Query;
+
+import java.util.List;
+
+public class Pegination {
+    public static void main(String[] args) {
+        Configuration configuration = new Configuration();
+        configuration.configure("hibernate.cfg.xml");
+        SessionFactory sessionFactory = configuration.buildSessionFactory();
+        Session session = sessionFactory.openSession();
+        try {
+            //pass  entity name not table in createQuery
+            Query q = session.createQuery("from EmployeeEntity");
+
+            q.setFirstResult(5); //start index point pegination
+            q.setMaxResults(3); //number of max recodes
+
+            List<EmployeeEntity> list = q.list();
+
+            for (EmployeeEntity employeeEntity : list) {
+                System.out.println(employeeEntity.toString());
+            }
+        } finally {
+            session.close();
+            sessionFactory.close();
+        }
+    }
+}
