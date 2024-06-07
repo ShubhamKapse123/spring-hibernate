@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db22042a-1b84-455e-84d5-161315f5f14f" name="Changes" comment="add lazy loading and eager loading details">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/criteriaexample/CriteriaExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/navtivequary/NativeQuaryExamaple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/pegination/Pegination.java" afterDir="false" />
+    <list default="true" id="db22042a-1b84-455e-84d5-161315f5f14f" name="Changes" comment="add peginatinon,criteria,native query operation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hql/HQLFetchExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/hql/HQLForCrud.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OperationPerform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/OperationPerform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/EmployeeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/EmployeeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/pegination/Pegination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/pegination/Pegination.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +62,8 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.App.executor": "Run",
     "Application.CriteriaExample.executor": "Run",
+    "Application.HQLFetchExample.executor": "Run",
+    "Application.HQLForCrud.executor": "Run",
     "Application.NativeQuaryExamaple.executor": "Run",
     "Application.Pegination.executor": "Run",
     "Maven.hibernate-app [clean].executor": "Run",
@@ -96,7 +93,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Pegination">
+  <component name="RunManager" selected="Application.HQLForCrud">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="hibernate-app" />
@@ -110,12 +107,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CriteriaExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.criteriaexample.CriteriaExample" />
+    <configuration name="HQLFetchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hql.HQLFetchExample" />
       <module name="hibernate-app" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.criteriaexample.*" />
+          <option name="PATTERN" value="org.example.hql.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HQLForCrud" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.hql.HQLForCrud" />
+      <module name="hibernate-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.hql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,14 +159,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in hibernate-app" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hibernate-app" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="spring-hibernate" />
       <method v="2">
@@ -172,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HQLForCrud" />
+        <item itemvalue="Application.HQLFetchExample" />
         <item itemvalue="Application.Pegination" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.NativeQuaryExamaple" />
-        <item itemvalue="Application.CriteriaExample" />
-        <item itemvalue="JUnit.All in hibernate-app" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716726048522</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add peginatinon,criteria,native query operation">
+      <option name="closed" value="true" />
+      <created>1717742843459</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717742843460</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,6 +249,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="changes for fixing the hibernate config file issue" />
     <MESSAGE value="add lazy loading and eager loading details" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lazy loading and eager loading details" />
+    <MESSAGE value="add peginatinon,criteria,native query operation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add peginatinon,criteria,native query operation" />
   </component>
 </project>
